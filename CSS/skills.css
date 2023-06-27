@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Kollektif', sans-serif;
+    background:  #212121;
+}
+/* NAV */
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+.navbar-layout{ 
+    height: 80px;
+    display: flex;
+    justify-content: space-between;/*jak działa*/
+    align-items: center;/* co to robi*/
+    margin: 0 100px;
+}
+.navbar-layout a { 
+    text-decoration: none; 
+    color: #fff;
+}
+#logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* footer section */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer{ 
+     width: 95%;
+     display: flex;
+     align-items: center;  /* pionowo centruje*/
+     justify-content: space-between;
+     
+    
+ }
+ .footer-link{
+     gap: 75px;
+     display: flex; /*domyślnie flex nakłada direction row */
+ }
+ .footer-copy{
+     color: #FFF;
+ }
+ 

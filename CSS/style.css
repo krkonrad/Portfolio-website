@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Kollektif', sans-serif;
+    background:  #212121;
+}
+/* NAV */
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+.navbar-layout{ 
+    height: 80px;
+    display: flex;
+    justify-content: space-between;/*jak działa*/
+    align-items: center;/* co to robi*/
+    margin: 0 100px;
+}
+.navbar-layout a { 
+    text-decoration: none; 
+    color: #fff;
+}
+#logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+/* HERO SECTION */
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    
+}
+.hero-title-conteiner{
+    display: flex;
+    justify-content: flex-start; /*jak działa*/
+    align-items: center;/*jak działa*/
+    gap: 50px;
+}
+.hero-title{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700; 
+}
+.hero-title-button-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #0D7377;
+}
+.hero-title-button-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding: 0 20px; /*jak działa*/
+    background: #0D7377;
+}
+.hero-title-batton-tekst{
+    color: #FFF;
+font-size: 19px;
+font-weight: 900;
+}
+.hero-description{
+    color: #FFF;
+    font-size: 20px;
+    font-style: italic;
+}
+.hero-description > span{ /* nawias ostrokątny piwoduje że span dział na daną klase bez zagnierzenia */
+  color: #14FFEC;
+}  
+.hero-button-layout{
+    display: flex; 
+    align-items: center;
+    gap: 100px;
+}
+.button-left-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    opacity: 0.9; /* co to robi*/
+    background: #0D7377;
+}
+.button-right-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    opacity: 0.9;
+}
+.hero-button-layout a {
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    text-decoration: none;/* co to robi*/
+}
+.hero-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.line-text{
+    width: 701px;
+    height: 2px;
+    background: #FFF;
+}
+.hero-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-statistic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.hero-statistic-tekst{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero-stat{
+    display: flex;
+    align-items: center;/* co to robi*/
+    gap: 15px;
+    color: #FFF;
+    justify-content:center;/* co to robi*/
+}
+.hero-stat-layout{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.hero-stat-layout span{/*wszystkie spany wewnątrz hero-stat-layout*/
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+/* footer section */
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer{ 
+    width: 95%;
+    display: flex;
+    align-items: center;  /* pionowo centruje*/
+    justify-content: space-between;
+    
+   
+}
+.footer-link{
+    gap: 75px;
+    display: flex; /*domyślnie flex nakłada direction row */
+}
+.footer-copy{
+    color: #FFF;
+}
+
+
+
