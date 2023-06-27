@@ -1,4 +1,4 @@
-# My Portfolio Webside
+# My Portfolio Website
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
