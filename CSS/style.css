@@ -22,6 +22,16 @@ body{
     text-decoration: none; 
     color: #fff;
 }
+.navbar-buttons-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar-buttons-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 #logo {
     font-size: 1.5rem;
     font-weight: 700;
