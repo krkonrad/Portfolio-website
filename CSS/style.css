@@ -6,10 +6,11 @@ body{
     font-family: 'Kollektif', sans-serif;
     background:  #212121;
 }
-/* NAV */
+
 .navbar {
-    width: 100%;
-    height: 80px;
+   /* This code sets the width and height of the element. */
+ width: 100%;
+height: 80px;
 }
 .navbar-layout{ 
     height: 80px;
