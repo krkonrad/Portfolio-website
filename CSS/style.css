@@ -170,7 +170,7 @@ font-weight: 900;
     gap: 15px;
 
 }
-.hero-stat-layout span{/*wszystkie spany wewnątrz hero-stat-layout*/
+.hero-stat-layout span{
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -182,10 +182,12 @@ footer {
    align-items: center;
    justify-content: center;
 }
+/* Step 1: Set up a flex container and set its width to 95% */
 .footer{ 
     width: 95%;
     display: flex;
-    align-items: center;  /* pionowo centruje*/
+/* Step 2: Align the items to the center and justify the content to space between */
+    align-items: center;  
     justify-content: space-between;
     
    
