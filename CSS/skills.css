@@ -1,6 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+     /* This code is used to set the margin and padding of the body element to zero. This is done to ensure that the web page is properly formatted and displayed in the browser. */
+
+ margin: 0;
+padding: 0;
 }
 body{
     font-family: 'Kollektif', sans-serif;
@@ -22,6 +24,16 @@ body{
     text-decoration: none; 
     color: #fff;
 }
+.navbar-buttons-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar-buttons-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 #logo {
     font-size: 1.5rem;
     font-weight: 700;
@@ -32,17 +44,19 @@ footer {
     align-items: center;
     justify-content: center;
  }
+ /* This code sets the width of the footer to 95%, and uses flexbox to align the items in the footer, and space them out evenly. */
+
  .footer{ 
      width: 95%;
      display: flex;
-     align-items: center;  /* pionowo centruje*/
+     align-items: center;  
      justify-content: space-between;
-     
-    
  }
- .footer-link{
+ /* This code defines the footer link and footer copy classes. It sets the gap between them to 75px and displays them as a flex item. It also sets the color of the footer copy to white. */
+
+.footer-link{
      gap: 75px;
-     display: flex; /*domyślnie flex nakłada direction row */
+     display: flex; 
  }
  .footer-copy{
      color: #FFF;

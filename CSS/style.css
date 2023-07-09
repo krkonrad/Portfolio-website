@@ -103,6 +103,7 @@ font-weight: 900;
     border-radius: 16px;
     opacity: 0.9; /* co to robi*/
     background: #0D7377;
+    transition: transform 0.3s ease-in-out;
 }
 .button-right-down{
     display: flex;
@@ -114,6 +115,18 @@ font-weight: 900;
     border-radius: 16px;
     border: 2px solid #FFF;
     opacity: 0.9;
+    transition: transform 0.1s ease-in-out;
+
+}
+.button-left-down:hover{
+    opacity: 1;
+    background-color: #44447c;
+    transform: scale(1.05);
+}
+.button-right-down:hover{
+    opacity: 1;
+    background-color: #44447c;
+    transform: scale(1.05);
 }
 .hero-button-layout a {
     color: #FFF;
