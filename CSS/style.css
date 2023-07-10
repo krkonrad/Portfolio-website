@@ -15,8 +15,8 @@ height: 80px;
 .navbar-layout{ 
     height: 80px;
     display: flex;
-    justify-content: space-between;/*jak działa*/
-    align-items: center;/* co to robi*/
+    justify-content: space-between;
+    align-items: center;
     margin: 0 100px;
 }
 .navbar-layout a { 
@@ -45,8 +45,8 @@ height: 80px;
 }
 .hero-title-conteiner{
     display: flex;
-    justify-content: flex-start; /*jak działa*/
-    align-items: center;/*jak działa*/
+    justify-content: flex-start; 
+    align-items: center;
     gap: 50px;
 }
 .hero-title{
@@ -72,7 +72,7 @@ height: 80px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 20px;
-    padding: 0 20px; /*jak działa*/
+    padding: 0 20px; 
     background: #0D7377;
 }
 .hero-title-batton-tekst{
@@ -101,7 +101,7 @@ font-weight: 900;
     height: 60px;
     flex-shrink: 0;
     border-radius: 16px;
-    opacity: 0.9; /* co to robi*/
+    opacity: 0.9; 
     background: #0D7377;
     transition: transform 0.3s ease-in-out;
 }
